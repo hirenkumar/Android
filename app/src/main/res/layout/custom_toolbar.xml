@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/toolbar_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/margin_medium"
+        android:text="@string/vehicle_tab"
+        android:textColor="@color/card_backgroundExpand"
+        android:textSize="@dimen/font_extra_large"
+        android:textStyle="bold" />
+
+</LinearLayout>
